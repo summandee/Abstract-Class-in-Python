@@ -16,3 +16,33 @@ Polymorphism:
 Abstract classes enable polymorphic behavior, where objects of different classes can be treated as objects of the abstract class. This simplifies code and allows for more flexibility.
 Future Extensibility:
 Abstract classes make it easier to add new subclasses in the future that adhere to the common interface defined by the abstract class. This promotes extensibility and maintainability.
+
+# Example of an Abstract Class in Python:
+Here is an example demonstrating the use of the abc module to create an abstract class in Python:
+
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+class Square(Shape):
+    def __init__(self, side_length):
+        self.side_length = side_length
+
+    def area(self):
+        return self.side_length * self.side_length
+
+# Usage
+# circle = Circle(5)
+# print(circle.area())
+# square = Square(4)
+# print(square.area())
