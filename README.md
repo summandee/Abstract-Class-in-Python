@@ -44,8 +44,8 @@ class Square(Shape):
     def area(self):
         return self.side_length * self.side_length
 
-# Usage
-# circle = Circle(5)
-# print(circle.area())
-# square = Square(4)
-# print(square.area())
+- Usage
+- circle = Circle(5)
+- print(circle.area())
+- square = Square(4)
+- print(square.area())
