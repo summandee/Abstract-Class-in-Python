@@ -1,7 +1,7 @@
 # Abstract-Class-in-Python
-# Abstract class definition
+## Abstract class definition
 
-In Python, an abstract class is a class that is designed to be used as a base class and is not meant to be instantiated directly. It typically contains one or more abstract methods that must be implemented by its subclasses.
+### In Python, an abstract class is a class that is designed to be used as a base class and is not meant to be instantiated directly. It typically contains one or more abstract methods that must be implemented by its subclasses.
 
 Benefits of Abstract Classes in Python:
 Encapsulation:
