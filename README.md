@@ -23,6 +23,7 @@ Here is an example demonstrating the use of the abc module to create an abstract
 # python
 
 # Starter Code
+'''
 from abc import ABC, abstractmethod
 
 class Shape(ABC):
@@ -44,8 +45,9 @@ class Square(Shape):
     def area(self):
         return self.side_length * self.side_length
 
-- Usage
-- circle = Circle(5)
-- print(circle.area())
-- square = Square(4)
-- print(square.area())
+ Usage
+ circle = Circle(5)
+ print(circle.area())
+ square = Square(4)
+ print(square.area())
+ '''
